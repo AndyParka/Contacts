@@ -1,0 +1,11 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "Tutorial contacts app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Andrew Parkinson",
+  "license": "ISC"
+}
