@@ -3,7 +3,7 @@ angular.module('ContactsApp')
 		$scope.contacts = Contact.query();
 		$scope.fields = ['firstName', 'lastName'];
 
-		$scope.sort = function(fields) {
+		$scope.sort = function(field ) {
 			$scope.sort.field = field;
 			$scope.sort.order = !$scope.sort.order;
 		};

@@ -5,7 +5,7 @@ var express = require('express');
 
 app
 	.use(express.static('./public'))
-	.user('/api', api)
+	.use('/api', api)
 	.get('*', function (req, res) {
 		res.sendFile(__dirname + '/public/main.html');
 	})
